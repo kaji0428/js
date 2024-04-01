@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>掲示板</title>
+
+</head>
+<body>
+    <h1>掲示板</h1>
+
+    <div>
+        <label for="nickname">ニックネーム：</label>
+        <input type="text" id="nickname"><br>
+    </div>
+    <div>
+        <label for="message">投稿内容：</label>
+        <textarea id="message" rows="4" cols="40"></textarea>
+    </div>
+    <div>
+        <button onclick="postMessage()">投稿</button><br>
+    </div>
+    <div id="messages"></div>
+
+    <script src="board.js"></script>
+</body>
+</html>
